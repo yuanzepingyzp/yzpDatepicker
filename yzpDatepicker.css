@@ -1,0 +1,64 @@
+yzpDatepickerwrap{
+	position: relative;
+}
+.yzpDatepicker{
+	position: absolute;
+	width: 220px;
+	background-color: rgb(100,200,200);
+	box-shadow: 1px 1px 1px rgb(200,200,200);
+	padding: 10px;
+	height: 250px;
+	z-index: 1;
+	top:55px;
+}
+.yzpDatepicker:before{
+	content: '';
+	height: 0;
+	width: 0;
+	border-bottom: 10px solid rgb(100,200,200);
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	position: absolute;
+	top:-10px;
+}
+.yzpDatepicker h3{
+	margin: 5px;
+	font-size: 18px;
+	color: white;
+}
+.yzpDatepicker .pickerHead{
+	text-align: center;
+	
+}
+yzp-datepicker .pickerHead button{
+	height: 20px;
+	width:30px;
+	border: none;
+	background: none;
+	color: white;
+}
+
+yzp-datepicker .pickerHead span{
+	color: rgb(240,240,240);
+	font-weight: 900;
+}
+
+.yzpDatepicker .pickerBody button{
+	background: none;
+	width: 30px;
+	height: 30px;
+	border: none;
+	color: white;
+}
+.yzpDatepicker button:hover{
+	background-color: white;
+	color: rgb(100,100,100);
+}
+
+.yzpDatepickerinput{
+	width: 100%;
+	border:1px solid rgb(100,200,200);
+	border-radius: 5px;
+	height: 30px;
+	font-size: 14px;
+}
