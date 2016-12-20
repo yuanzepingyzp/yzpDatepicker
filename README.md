@@ -18,8 +18,10 @@
 </html>
 ```
 ##API
+```html
 <yzp-datepicker month="12" /*bind month for the input*/
                 year=2017 /*bind year for the input*/
                 day=20 /*bind day for the input*/
                 placeholder="请输入时间"/*define the placeholder of the input*/
 ></yzp-datapicker>
+```
